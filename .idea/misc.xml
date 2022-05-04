@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg.xml" value="0.31851851851851853" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg_bend.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg_bend_one.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/border_only.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/delete_old.xml" value="0.3296296296296296" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.31851851851851853" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/ic_baseline_warning_24.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/delete24.xml" value="0.3296296296296296" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.3296296296296296" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_add_user.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_front_page.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_old_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_old_recycle.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_show_list.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_user_list.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/dummy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/entry_recycle.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/loading.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/materials.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler1.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler2.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/show_rercycle.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/user_delete_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/menu/optionmenu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

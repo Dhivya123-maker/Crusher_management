@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/m_name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:background="@drawable/border_only"
+            android:hint="Material"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"
+            />
+
+        <EditText
+            android:id="@+id/units"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"
+            android:background="@drawable/border_only"
+            android:hint="Units"
+            />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:textColorHint="#808080"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/border_only"
+            android:hint="Price (per unit)"
+            />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/delete24" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
