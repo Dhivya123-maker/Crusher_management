@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.crushermanagement.entries.EntryActivity;
+import com.example.crushermanagement.Dashboard.DashboardClass;
 import com.example.crushermanagement.utils.PreferenceUtils;
 
 public class SplashActivity extends AppCompatActivity {
@@ -23,10 +23,10 @@ public class SplashActivity extends AppCompatActivity {
 
             public void run() {
                 if(PreferenceUtils.getToken(SplashActivity.this) != null) {
-                    Intent intent = new Intent(SplashActivity.this, FrontPage.class);
+                    Intent intent = new Intent(SplashActivity.this, DashboardClass.class);
                     startActivity(intent);
                 }else{
-                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, Login.class);
                     startActivity(intent);
                 }
 

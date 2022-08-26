@@ -3,6 +3,48 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Crushermanagement/app/src/main/res/drawable-v24/bg_bend.xml" value="0.2355" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/drawable-v24/border_only.xml" value="0.2355" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/drawable/add.xml" value="0.2355" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/drawable/edit.xml" value="0.3592592592592593" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/drawable/edit_bg.xml" value="0.3592592592592593" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_add_user.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_allentry.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_dashboard.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_edit.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_entry.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_front_page.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_login.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_main.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_newentry.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_old_entry.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_old_recycle.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_show_list.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_splash.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_user_list.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/activity_viewentry.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/alert_dailogbox.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/allentry_recycle.xml" value="0.33951219512195124" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/custom_list_item.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/dashboardentry_recycle.xml" value="0.35104166666666664" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/entry_recycle.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/recycler.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/recycler1.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/recycler2.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/show_rercycle.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/user_recycle.xml" value="0.35520833333333335" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/layout/view_entry_recycle.xml" value="0.35104166666666664" />
+        <entry key="..\:/Crushermanagement/app/src/main/res/menu/optionmenu.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg.xml" value="0.127" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/edit_bg.xml" value="0.2315" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/login_bg.xml" value="0.2315" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_allentry.xml" value="0.346875" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_login.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_newentry.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_viewentry.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/alert_dailogbox.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/allentry_recycle.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/entry_recycle.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg.xml" value="0.31851851851851853" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg_bend.xml" value="0.31666666666666665" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/bg_bend_one.xml" value="0.30277777777777776" />
@@ -11,26 +53,38 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.31851851851851853" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable-v24/ic_baseline_warning_24.xml" value="0.31666666666666665" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/delete24.xml" value="0.3296296296296296" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/edit.xml" value="0.36564102564102563" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/edit_bg.xml" value="0.36944444444444446" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/green_bg.xml" value="0.36944444444444446" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.3296296296296296" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.36564102564102563" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/login_bg.xml" value="0.36944444444444446" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/drawable/red_bg.xml" value="0.3769230769230769" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_add_user.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_edit.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_entry.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_front_page.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_old_entry.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_old_recycle.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_show_list.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/activity_user_list.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/alert_dailogbox.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/custom_list_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/dummy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/edittext.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/entry_recycle.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/loading.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/materials.xml" value="0.22" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler1.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler2.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/recycler2.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/show_rercycle.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/layout/user_delete_recycler.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Crushermanagement/app/src/main/res/menu/optionmenu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/select_dialog_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

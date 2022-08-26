@@ -1,132 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#008641">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="SBMM"
-            android:textColor="@color/white"
-            android:textSize="18dp"
-            android:textStyle="normal" />
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="SBMM"
+        android:textColor="#008641"
+        android:textSize="18dp"
+        android:textStyle="normal" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="80dp"
-        android:orientation="vertical">
-
-        <EditText
-            android:id="@+id/name"
+        android:layout_below="@id/text">
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Name"
-            android:paddingStart="5dp"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textColorHint="#808080"
-            android:backgroundTint="@color/black"
-            android:textSize="14dp">
+            android:layout_height="match_parent">
 
-        </EditText>
-        <TextView
-            android:id="@+id/error1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#E53935"
-            android:textAlignment="textEnd"
-            android:paddingEnd="10dp"
-            android:visibility="gone"
-            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/login_bg"
+                android:orientation="vertical">
 
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edit_bg"
+                    android:hint="Name"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#808080"
+                    android:textSize="14dp">
 
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"
-            android:paddingStart="5dp"
-            android:layout_marginTop="30dp"
-            android:textColorHint="#808080"
-            android:singleLine="true"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/black"
-            android:textSize="14dp">
+                </EditText>
 
-        </EditText>
-        <TextView
-            android:id="@+id/error2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#E53935"
-            android:layout_below="@+id/user"
-            android:textAlignment="textEnd"
-            android:paddingEnd="10dp"
-            android:visibility="gone"
-            />
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:paddingStart="5dp"
-            android:layout_marginTop="30dp"
-            android:textColorHint="#808080"
-            android:backgroundTint="@color/black"
-            android:singleLine="true"
-            android:textColor="@color/black"
-            android:textSize="14dp">
+                <TextView
+                    android:id="@+id/error1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#E53935"
+                    android:visibility="gone" />
 
-        </EditText>
-        <TextView
-            android:id="@+id/error3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#E53935"
-            android:textAlignment="textEnd"
-            android:paddingEnd="10dp"
-            android:visibility="gone"
-            />
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edit_bg"
+                    android:hint="Email"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#808080"
+                    android:textSize="14dp">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/error2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#E53935"
+                    android:visibility="gone" />
 
 
-        <Button
-            android:id="@+id/add_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="Add new user"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:letterSpacing="0.01"
-            />
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edit_bg"
+                    android:hint="Password"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="#808080"
+                    android:textSize="14dp">
 
-        <Button
-            android:id="@+id/view_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="View all users"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:letterSpacing="0.01"
-            />
+                </EditText>
 
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/error3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/user"
+                    android:paddingEnd="10dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#E53935"
+                    android:visibility="gone" />
 
 
-</LinearLayout>
+                <Button
+                    android:id="@+id/add_user_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/edit_bg"
+                    android:letterSpacing="0.01"
+                    android:text="Add new user"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/view_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/view"
+                    android:textColor="#008641"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

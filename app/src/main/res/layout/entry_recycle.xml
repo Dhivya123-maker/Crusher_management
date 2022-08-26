@@ -13,7 +13,7 @@
         android:layout_marginTop="20dp"
         android:weightSum="3">
 
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/m_name"
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -26,7 +26,7 @@
             android:textColorHint="#808080"
             />
 
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/units"
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -41,7 +41,7 @@
             android:hint="Units"
             />
 
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/price"
             android:layout_width="match_parent"
             android:layout_height="45dp"

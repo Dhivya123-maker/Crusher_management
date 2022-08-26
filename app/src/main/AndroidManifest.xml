@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crushermanagement">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,25 +14,28 @@
         android:theme="@style/Theme.CrusherManagement"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".FrontPage"
+            android:name=".Edit"
             android:exported="false" />
         <activity
-            android:name=".Old_entry.Old_entry"
-            android:exported="false" />
-        <activity
-            android:name=".User_List"
+            android:name=".AllEntries.AllEntryClass"
             android:exported="false" />
         <activity
             android:name=".Add_user"
             android:exported="false" />
         <activity
-            android:name=".Show_Entries.ShowList"
+            android:name=".ViewEntry.ViewEntryClass"
             android:exported="true" />
         <activity
-            android:name=".entries.EntryActivity"
+            android:name=".NewEntry.NewEntryClass"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Dashboard.DashboardClass"
+            android:exported="true" />
+        <activity
+            android:name=".UserList.UserListClass"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
             android:exported="true" />
         <activity
             android:name=".SplashActivity"

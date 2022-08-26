@@ -21,6 +21,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.crushermanagement.UserList.UserListClass;
 import com.example.crushermanagement.utils.PreferenceUtils;
 
 import org.json.JSONArray;
@@ -32,7 +33,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Add_user extends AppCompatActivity {
-    Button add_user,view_user;
+    Button add_user_btn;
+    TextView view_txt;
     EditText name,email,password;
     String Email,Password,Name;
     JSONObject data;
@@ -45,23 +47,23 @@ public class Add_user extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_user);
 
-        add_user = findViewById(R.id.add_btn);
+        add_user_btn = findViewById(R.id.add_user_btn);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
         name = findViewById(R.id.name);
         error1 = findViewById(R.id.error1);
         error2 = findViewById(R.id.error2);
         error3 = findViewById(R.id.error3);
-        view_user = findViewById(R.id.view_btn);
-        view_user.setOnClickListener(new View.OnClickListener() {
+        view_txt = findViewById(R.id.view_txt);
+        view_txt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Add_user.this,User_List.class);
+                Intent intent = new Intent(Add_user.this, UserListClass.class);
                 startActivity(intent);
             }
         });
 
-        add_user.setOnClickListener(new View.OnClickListener() {
+        add_user_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -115,7 +117,7 @@ public class Add_user extends AppCompatActivity {
                         if (Success.equals("true")) {
 
                             Toast.makeText(Add_user.this, msg, Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Add_user.this, User_List.class);
+                            Intent intent = new Intent(Add_user.this, UserListClass.class);
                             startActivity(intent);
 
 
@@ -252,6 +254,11 @@ public class Add_user extends AppCompatActivity {
         }
 
 
+    }
+    public void onBackPressed() {
+
+        Add_user.super.onBackPressed();
 
     }
+
 }

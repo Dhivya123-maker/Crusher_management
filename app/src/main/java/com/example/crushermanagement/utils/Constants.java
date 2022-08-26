@@ -8,8 +8,6 @@ public class Constants {
 
 
 
-
-
     public static String KEY_TOKEN = token;
     public static String KEY_ID = id;
     public static String KEY_EMAIL = email;
